@@ -10,4 +10,9 @@ public class Products {
         this.category = category;
         this.seller = seller;
     }
+
+    @Override
+    public String toString(){
+        return title + "," + price + "," + category + "," + seller;
+    }
 }
